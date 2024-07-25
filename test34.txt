@@ -1,0 +1,9 @@
+version: "2.1"
+
+services:
+  infmario44:
+    container_name: infmario44
+    image: erudinsky/mario:latest
+    restart: always
+    ports:
+      - "31144:8080"
