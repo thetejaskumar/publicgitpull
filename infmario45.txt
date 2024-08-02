@@ -1,8 +1,8 @@
 version: "2.1"
 
 services:
-  infmario44:
-    container_name: infmario44
+  infmario45:
+    container_name: infmario45
     image: erudinsky/mario:latest
     restart: always
     ports:
